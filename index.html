@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    
+    <script src="https://kit.fontawesome.com/e47eda0ed9.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src="images/logo3.jpg" class="logo" >
+                <ul id="sidemenu">
+                    <li><a href="#header">HOME</a></li> &nbsp;&nbsp;&nbsp;
+                    <li><a href="#about">ABOUT</a></li> &nbsp;&nbsp;&nbsp;
+                    <li><a href="#services">PORTFOLIO</a></li> &nbsp;&nbsp;&nbsp;
+                    <li><a href="#portfolio">SERVICES</a></li> &nbsp;&nbsp;&nbsp;
+                    <li><a href="#contact">CONTACT</a></li> &nbsp;&nbsp;&nbsp; <br>
+                    <i class="fa-solid fa-circle-xmark" onclick="closemenu()"></i>
+                </ul>
+                <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+            </nav>
+            <div class="header-text">
+                <p>Front End and Back End Developer</p>
+                <h1>Hi, I am <span>Afsana</span> Alam Trisha </h1>
+            </div>
+        </div>
+    </div>
+
+<!-------------------------------about--------------------------------------->
+
+<div id="about">
+    <div class="container">
+        <div class="row">
+            <div class="about-col-1">
+                <img src="images/Afsana.jpg" >
+            </div>
+            <div class="about-col-2">
+                <h1 class="sub-title">About Me</h1>
+                <p>Paragraphs are the building blocks of papers. Many students define paragraphs in terms of length: 
+                    a paragraph is a group of at least five sentences, a paragraph is half a page long, etc. In reality, though, 
+                    the unity and coherence of ideas among sentences is what constitutes a paragraph.
+                     A paragraph is defined as “a group of sentences or a single sentence that forms a unit” 
+                     (Lunsford and Connors 116). Length and appearance do not determine whether a section in 
+                     a paper is a paragraph.</p>
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                        <p class="tab-links"  onclick="opentab('education')">Education</p>
+
+                    </div>
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span>Front End</span><br>Designing Client-side Interfaces</li>
+                            <li><span>Back End</span><br>Developing Server-side</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            <li><span>2022</span><br>BSc in Computer Science and Engineering from International University of Business Agriculture and Technology, Dhaka.</li>
+                            <li><span>2017</span><br>HSC from Shaheed Bir Uttam Lt. Anwar Girls' College, Dhaka.</li>
+                            <li><span>2015</span><br>SSC from Civil Aviation High School, Dhaka.</li>
+                        </ul>
+                    </div>
+                    
+            </div>
+        </div>
+    </div>
+</div>
+<!--------------------------------------------sevices------------------------------>
+<div id="services">
+    <div class="container">
+        <h1 class="sub-title">My Services</h1>
+        <div class="services-list">
+            <div>
+                <i class="fa-solid fa-code"></i>
+                <h2>Front End Designing</h2>
+                
+                <a href="#">Learn more</a>
+            </div>
+            <div>
+                <i class="fa-solid fa-gears"></i>
+                <h2>Back End Developing</h2>
+                
+                <a href="#">Learn more</a>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-----------------------------------portfolio-------------------------------------->
+<div id="portfolio">
+    <div class="container">
+        <h1 class="sub-title">My Work</h1>
+        <div class="work-list">
+            <div class="work">
+                <img src="images/work1.jpg" alt="">
+                <div class="layer">
+                    <h3>Bus Schedule Management System (2020)</h3>
+                    <p>This Project was PHP programming Language.</p>
+                    <a href="https://github.com/Afsana-Trisha/Bus-Management-System"><i class="fa-solid fa-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="images/work2.jpg" alt="">
+                <div class="layer">
+                    <h3>Emergency Ambulance Booking System (2021)</h3>
+                    <p>This Project was designed and developed with PHP programming Language.
+                        This is the Front-end of the Project.
+                    </p>
+                    <a href="https://github.com/Afsana-Trisha/Emergency-Ambulance-Booking-System"><i class="fa-solid fa-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="images/work3.jpg" alt="">
+                <div class="layer">
+                    <h3>Online Shop Management System (Kujobon) (2021)</h3>
+                    <p>This Project was developed with Asp.Net programming Language.
+                        This is the Front-end of the Project.
+                    </p>
+                    <a href="https://github.com/Afsana-Trisha/Online-shop-management-system-Frontend-"><i class="fa-solid fa-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="images/work4.jpg" alt="">
+                <div class="layer">
+                    <h3>Hotel Booking Management System (2019)</h3>
+                    <p>This Project was developed with C++ programming Language.</p>
+                    <a href="https://github.com/Afsana-Trisha/Hotel-Management-System"><i class="fa-solid fa-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="images/work5ab.jpg" alt="">
+                <div class="layer">
+                    <h3>Rocket Launching Project (2020)</h3>
+                    <p>This Project was developed with OpenGL.</p>
+                    <a href="https://github.com/Afsana-Trisha/Rocket-Project-Graphics-"><i class="fa-solid fa-up-right-from-square"></i></a>
+                </div>
+            </div>
+        </div>
+        <!--<a href="#" class="btn">See More</a>-->
+    </div>
+</div>
+
+<!---------------------------------------contact------------------------------------------>
+<div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="col">
+                <div class="contact-left">
+                    <h1 class="sub-title">Contact Me</h1>
+                    <p><i class="fa-solid fa-envelope"></i> afsanatrisha210@gmail.com</p>
+                    <p><i class="fa-solid fa-phone-volume"></i> 01963-649996</p><br>
+                    <div class="social-icons">
+                        <a href="https://www.facebook.com/afsana.alam.trisha"><i class="fa-brands fa-square-facebook"></i></a>
+                        <a href="https://www.instagram.com/af_san_aa/"><i class="fa-brands fa-square-instagram"></i></a>
+                        <a href="https://www.linkedin.com/in/afsana-alam-trisha-621006251/"><i class="fa-brands fa-linkedin"></i></a>
+                        
+                    </div>
+                    <a href="images/cv.pdf" download class="btn btn2">Download CV</a>
+                </div>
+                <div class="contact-right">
+                    <form name="submit-to-google-sheet">
+                        <input type="text" name="Name" placeholder="Your Name" required>
+                        <input type="email" name="Email" placeholder="Your Email" required>
+                        <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                        <button type="submit" class="btn btn2">Submit</button>
+                    </form>
+                    <span id="msg"></span>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="copyright">
+        <p>
+            Copyright © Afsana.
+        </p>
+    </div>
+</div>
+
+<script>
+    var tablinks = document.getElementsByClassName("tab-links");
+    var tabcontents = document.getElementsByClassName("tab-contents");
+    
+   function opentab(tabname){
+    for(tablink of tablinks){
+        tablink.classList.remove("active-link");
+    }
+    for(tabcontent of tabcontents){
+        tabcontent.classList.remove("active-tab");
+    }
+    event.currentTarget.classList.add("active-link");
+    document.getElementById(tabname).classList.add("active-tab");
+   }
+</script>
+<script>
+    var sidemenu = document.getElementById("sidemenu");
+    function openmenu(){
+        sidemenu.style.right = "0";
+    }
+    function closemenu(){
+        sidemenu.style.right = "-220px";
+    }
+</script>
+<script>
+    const scriptURL = 'https://script.google.com/macros/s/AKfycbw8AZVqKtddHiwZdtH7DjYCeeQoBZEz-XwJrd4Z1FHHR1xU3Guqj_UmaWaEsbDKuy91/exec'
+    const form = document.forms['submit-to-google-sheet']
+    const msg = document.getElementById("msg")
+  
+    form.addEventListener('submit', e => {
+      e.preventDefault()
+      fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+        .then(response => {
+            msg.innerHTML = "Message sent successfully"
+            setTimeout(function(){
+                msg.innerHTML = ""
+            },5000)
+            form.reset()
+        })
+        .catch(error => console.error('Error!', error.message))
+    })
+</script>
+
+</body>
+</html>
